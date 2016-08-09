@@ -1,5 +1,5 @@
 {
-  "name": "hello-react",
+  "name": "tic-tac-toe",
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
@@ -13,5 +13,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/react-scripts/config/eslint.js"
   }
 }
