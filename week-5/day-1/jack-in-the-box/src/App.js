@@ -36,7 +36,6 @@ class App extends Component {
     }
 
     return <div className='App'>
-      <audio ref="player" src="as"></audio>
       <div className='box'>
         <img src={boxImage} alt='' onClick={this._clickHandler} />
       </div>
