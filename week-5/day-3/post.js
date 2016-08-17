@@ -7,6 +7,10 @@ fetch(
   'https://api.github.com/gists?access_token=f3e4cc0fbff4fe12130f718a3bd52a8325855551',
   {
     method: 'POST',
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    },
     // encode this JavaScript object to a JSON string
     body: JSON.stringify({
       description: 'the description for this gist',
